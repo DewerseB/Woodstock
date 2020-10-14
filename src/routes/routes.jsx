@@ -5,19 +5,19 @@ import { Home, About, Furnitures, Shop, Contact } from '../pages';
 const Routes = () => {
     return (
         <Switch>
-          <Route path="/about">
+          <Route path="/Woodstock/about">
             <About />
           </Route>
-          <Route path="/furnitures">
+          <Route path="/Woodstock/furnitures">
             <Furnitures />
           </Route>
-          <Route path="/shop">
+          <Route path="/Woodstock/shop">
             <Shop />
           </Route>
-          <Route path="/contact">
+          <Route path="/Woodstock/contact">
             <Contact />
           </Route>
-          <Route path="/">
+          <Route path="/Woodstock/">
             <Home />
           </Route>
         </Switch>

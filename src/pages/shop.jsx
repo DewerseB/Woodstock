@@ -3,7 +3,10 @@ import React from 'react';
 const Shop = () => {
     return (
         <main>
-            <p>Shop</p>
+            <h1 class="title is-1">Shop</h1>
+            <section class="section">
+                <p>Shop</p>
+            </section>
         </main>
     )
 }
