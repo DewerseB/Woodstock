@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
 import { Home, About, Furnitures, Shop, Contact } from '../pages';
 
 const Routes = () => {
@@ -17,8 +17,11 @@ const Routes = () => {
           <Route path="/Woodstock/contact">
             <Contact />
           </Route>
-          <Route path="/Woodstock/">
+          <Route exact path="/Woodstock/">
             <Home />
+          </Route>
+          <Route path="/">
+            <Redirect to="/Woodstock/" />
           </Route>
         </Switch>
     )
