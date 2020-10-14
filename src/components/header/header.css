@@ -1,4 +1,20 @@
-header a {
-    color: #ffffff;
-    text-decoration: none;
+.bg-transparent {
+    background-color: transparent;
+}
+
+a.nav-link {
+    font-weight: bold;
+    color: white;
+    padding: 1rem 2rem;
+    outline: none;
+}
+
+a.nav-link:hover, .navbar-brand a.nav-link:hover, a.nav-link:focus, .navbar-brand a.nav-link:focus {
+    color: black;
+    background-color: white;
+}
+
+a.is-current, a.nav-link:active, .navbar-brand a.nav-link:active {
+    color: #9e5419;
+    background-color: #cbbfa9;
 }
