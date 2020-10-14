@@ -5,7 +5,7 @@ import './header.css';
 const Header = () => {
     const [isBurgerActive, setisBurgerActive] = useState(false);
     return (
-        <header>
+        <header class={`${useLocation().pathname === "/" ? "home" : "nothome"}`}>
             <nav class="navbar bg-transparent" role="navigation" aria-label="main navigation">
                 <div class="navbar-brand">
                     <Link to="/" class={`navbar-item nav-link${useLocation().pathname === "/" ? " is-current" : ""}`}>Woodstock</Link>
@@ -15,7 +15,7 @@ const Header = () => {
                         <span aria-hidden="true"></span>
                     </button>
                 </div>
-                <div id="mainMenu" class={`navbar-menu bg-transparent${isBurgerActive ? " is-active" : ""}`}>
+                <div id="mainMenu" class={`navbar-menu${isBurgerActive ? " is-active has-background-black" : ""}`}>
                     <div class="navbar-end">
                         <Link to="/about" class={`navbar-item nav-link${useLocation().pathname === "/about" ? " is-current" : ""}`}>About</Link>
                         <Link to="/furnitures" class={`navbar-item nav-link${useLocation().pathname === "/furnitures" ? " is-current" : ""}`}>Furnitures</Link>

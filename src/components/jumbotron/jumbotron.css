@@ -1,3 +1,11 @@
 .jumbotron {
-    background-image: url('../../assets/wood-stockpile.jpg');
+    background-image: url('../../assets/wood-stack.jpg');
+}
+
+.jumbotron .title {
+    color: white;
+}
+
+.jumbotron .hero-body {
+    background-color: #00000080;
 }

@@ -9,7 +9,7 @@ a.nav-link {
     outline: none;
 }
 
-a.nav-link:hover, .navbar-brand a.nav-link:hover, button.navbar-burger:focus, a.nav-link:focus, .navbar-brand a.nav-link:focus, button.navbar-burger:focus {
+a.nav-link:hover, .navbar-brand a.nav-link:hover, button.navbar-burger:hover, a.nav-link:focus, .navbar-brand a.nav-link:focus, button.navbar-burger:focus {
     color: black;
     background-color: white;
 }
@@ -17,4 +17,14 @@ a.nav-link:hover, .navbar-brand a.nav-link:hover, button.navbar-burger:focus, a.
 a.is-current, a.nav-link:active, .navbar-brand a.nav-link:active, button.navbar-burger {
     color: #9e5419;
     background-color: #cbbfa9;
+}
+
+header.home {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+header.nothome {
+    background-color: black;
 }
