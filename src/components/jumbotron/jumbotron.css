@@ -4,6 +4,8 @@
 
 .jumbotron .title {
     color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 .jumbotron .hero-body {

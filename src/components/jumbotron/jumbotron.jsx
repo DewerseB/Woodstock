@@ -3,10 +3,10 @@ import './jumbotron.css';
 
 const Jumbotron = () => {
     return (
-        <section class="hero is-fullheight jumbotron">
-            <div class="hero-body">
-                <div class="container">
-                    <h1 class="title is-1">Woodstock</h1>
+        <section className="hero is-fullheight jumbotron">
+            <div className="hero-body">
+                <div className="container">
+                    <h1 className="title is-1"><span>WOOD</span><span>STOCK</span></h1>
                 </div>
             </div>
         </section>

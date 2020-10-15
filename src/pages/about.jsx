@@ -1,14 +1,25 @@
 import React from 'react';
+const info = {
+    title : "About",
+    description : "A page about us"
+}
 
 const About = () => {
     return (
         <main>
-            <h1 class="title is-1">About</h1>
-            <section class="section">
-                <p>About us</p>
+            <section className="section intro">
+                <h1 className="title is-1">{info.title}</h1>
+                <p>{info.description}</p>
+            </section>
+            <section className="section">
+                <p>Plus plus plus</p>
+                <p>This is a second section</p>
             </section>
         </main>
     )
 }
 
-export default About;
+export {
+    About,
+    info
+}

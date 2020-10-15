@@ -17,7 +17,7 @@ const Routes = () => {
           <Route path="/Woodstock/contact">
             <Contact />
           </Route>
-          <Route exact path="/Woodstock/">
+          <Route exact strict path="/Woodstock/">
             <Home />
           </Route>
           <Route path="/">
