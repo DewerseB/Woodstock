@@ -12,22 +12,23 @@ const Preview = () => {
             <div className="container">
                 {pages.map((page, index) => {
                     return (
-                        <div className="columns is-mobile" key={[page.title + index]}>
+                        <div className="columns box is-mobile" key={[page.title + index]}>
                             {(index % 2 === 0) ? (
-                                    <Fragment>
-                                        <div className="column">
-                                            <h3 className="title is-3">{page.title}</h3>
-                                            {Hooks.useArrayToP(page.description)}
-                                            <Link to={page.url} className="">{page.link}</Link>
-                                        </div>
-                                        <div className="column">
-                                            <img src={page.photo}></img>
-                                        </div>
-                                    </Fragment>
+                                <Fragment>
+                                    <div className="column">
+                                        <h3 className="title is-3">{page.title}</h3>
+                                        {Hooks.useArrayToP(page.description)}
+                                        <Link to={page.url} className="">{page.link}</Link>
+                                    </div>
+                                    <div className="column">
+                                        <img src={page.photo} alt=""></img>
+                                        {/* srcset and sizes */}
+                                    </div>
+                                </Fragment>
                             ) : (
                                 <Fragment>
                                     <div className="column">
-                                        <img src={page.photo}></img>
+                                        <img src={page.photo} alt=""></img>
                                     </div>
                                     <div className="column">
                                         <h3 className="title is-3">{page.title}</h3>

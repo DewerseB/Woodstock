@@ -6,7 +6,8 @@ const info = {
     description : ["It might not be the right time", "I might not be the right one", "But there's something about us I want to say", "Cause there's something between us anyway"],
     url : "/Woodstock/about",
     link : "About us",
-    photo : require('../../assets/wood-stack.jpg')
+    photo : require('../../assets/wood-stack.jpg'),
+    photolow : require('../../assets/wood-stack-low.jpg')
 };
 
 const About = () => {

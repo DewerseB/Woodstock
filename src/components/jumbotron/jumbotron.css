@@ -1,5 +1,13 @@
-.jumbotron {
-    background-image: url('../../assets/wood-stack.jpg');
+@media screen and (min-width: 1024px) {
+    .jumbotron {
+        background-image: url('../../assets/wood-stack.jpg');
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .jumbotron {
+        background-image: url('../../assets/wood-stack-low.jpg');
+    }
 }
 
 .jumbotron .title {

@@ -5,7 +5,8 @@ const info = {
     description : ["I wear your granddad's clothes", "I look incredible", "I'm in this big ass coat", "From that thrift shop down the road"],
     url : "/Woodstock/shop",
     link : "Go shopping",
-    photo : require('../../assets/wood-stack.jpg')
+    photo : require('../../assets/wood-stack.jpg'),
+    photolow : require('../../assets/wood-stack-low.jpg')
 };
 
 const Shop = () => {

@@ -6,7 +6,8 @@ const info = {
     description : ["Trapped in the skies", "What am I to do", "Brothers from another planet", "Y'all know the truth"],
     url : "/Woodstock/furnitures",
     link : "Go shopping",
-    photo : require('../../assets/wood-stack.jpg')
+    photo : require('../../assets/wood-stack.jpg'),
+    photolow : require('../../assets/wood-stack-low.jpg')
 };
 
 const Furnitures = () => {
