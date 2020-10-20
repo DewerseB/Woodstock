@@ -1,3 +1,9 @@
 .preview {
     background-color: white;
 }
+
+.preview .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

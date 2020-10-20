@@ -15,7 +15,7 @@ a.nav-link:hover, .navbar-brand a.nav-link:hover, button.navbar-burger:hover, a.
 }
 
 a.is-current, a.nav-link:active, .navbar-brand a.nav-link:active, button.navbar-burger {
-    color: #9e5419;
+    color: #6b3910;
     background-color: #cbbfa9;
 }
 
