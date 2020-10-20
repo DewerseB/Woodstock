@@ -1,10 +1,13 @@
 import React from 'react';
-const info = {
-    title : "About",
-    description : "A page about us"
-}
 
-const About = () => {
+const info = {
+    title: "Shop",
+    description : "I wear your granddad's clothes, I look incredible, I'm in this big ass coat, From that thrift shop down the road",
+    url : "/Woodstock/shop",
+    link : "Go shopping"
+};
+
+const Shop = () => {
     return (
         <main>
             <section className="section intro">
@@ -12,14 +15,13 @@ const About = () => {
                 <p>{info.description}</p>
             </section>
             <section className="section">
-                <p>Plus plus plus</p>
-                <p>This is a second section</p>
+                <p>Buy this!</p>
             </section>
         </main>
     )
-}
+};
 
 export {
-    About,
+    Shop,
     info
-}
+};

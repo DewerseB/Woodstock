@@ -1,5 +1,5 @@
 import React from 'react';
-import { Jumbotron, Preview, ContactForm } from '../components';
+import { Jumbotron, Preview, ContactForm } from '../';
 
 const Home = () => {
     return (

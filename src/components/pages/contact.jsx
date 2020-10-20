@@ -1,5 +1,5 @@
 import React from 'react';
-import { ContactForm } from '../components';
+import { ContactForm } from '../';
 
 const Contact = () => {
     return (
@@ -7,6 +7,6 @@ const Contact = () => {
             <ContactForm/>
         </main>
     )
-}
+};
 
 export default Contact;

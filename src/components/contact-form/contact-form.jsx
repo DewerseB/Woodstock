@@ -8,16 +8,16 @@ const ContactForm = () => {
             <form className="container">
                 <div className="field is-grouped is-grouped-centered">
                     <div className="control is-expanded">
-                    <label className="label">First name</label>
-                        <input className="input" type="text" placeholder="First name" required/>
+                        <label className="label" for="form-firstname">First name</label>
+                        <input id="form-firstname" className="input" type="text" placeholder="First name" required/>
                     </div>
                     <div className="control is-expanded">
-                        <label className="label">Last name</label>
-                        <input className="input" type="text" placeholder="Last name" required/>
+                        <label className="label" for="form-lastname">Last name</label>
+                        <input id="form-lastname" className="input" type="text" placeholder="Last name" required/>
                     </div>
                 </div>
                 <div className="field">
-                    <label className="label">Email</label>
+                    <label className="label" for="email">Email</label>
                     <div className="control has-icons-left has-icons-right">
                         <input id="email" className="input is-danger" type="email" placeholder="Email" required/>
                         <span className="icon is-small is-left">
@@ -30,9 +30,9 @@ const ContactForm = () => {
                     <p className="help is-danger">This email is invalid</p>
                 </div>
                 <div className="field">
-                    <label className="label">Message</label>
+                    <label className="label" for="form-message">Message</label>
                     <div className="control">
-                        <textarea id="message" className="textarea" placeholder="Enter your message here" required></textarea>
+                        <textarea id="form-message" className="textarea" placeholder="Enter your message here" required></textarea>
                     </div>
                 </div>
                 <div className="field">

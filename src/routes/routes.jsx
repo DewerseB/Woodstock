@@ -1,6 +1,6 @@
 import React from 'react';
 import { Switch, Route, Redirect } from "react-router-dom";
-import { Home, About, Furnitures, Shop, Contact } from '../pages';
+import { Home, About, Furnitures, Shop, Contact } from '../components/pages';
 
 const Routes = () => {
     return (
