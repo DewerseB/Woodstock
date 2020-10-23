@@ -12,28 +12,32 @@ const Preview = () => {
             <div className="container">
                 {pages.map((page, index) => {
                     return (
-                        <div className="columns box is-mobile" key={[page.title + index]}>
+                        <div className="columns box" key={[page.title + index]}>
                             {(index % 2 === 0) ? (
                                 <Fragment>
-                                    <div className="column">
-                                        <h3 className="title is-3">{page.title}</h3>
-                                        {Hooks.useArrayToP(page.description)}
-                                        <Link to={page.url} className="">{page.link}</Link>
+                                    <div className="column is-hidden-desktop">
+                                        <Link to={page.url} className="link-photo"><img src={page.photo} className="photo" alt=""></img></Link>
                                     </div>
                                     <div className="column">
-                                        <img src={page.photo} alt=""></img>
+                                        <h3 className="title is-3">{page.title}</h3>
+                                        
+                                        {Hooks.useArrayToQuote(page.description)}
+                                        <Link to={page.url} className="button">{page.link}</Link>
+                                    </div>
+                                    <div className="column is-hidden-touch">
+                                        <Link to={page.url} className="link-photo"><img src={page.photo} className="photo" alt=""></img></Link>
                                         {/* srcset and sizes */}
                                     </div>
                                 </Fragment>
                             ) : (
                                 <Fragment>
                                     <div className="column">
-                                        <img src={page.photo} alt=""></img>
+                                        <Link to={page.url} className="link-photo"><img src={page.photo} className="photo" alt=""></img></Link>
                                     </div>
                                     <div className="column">
                                         <h3 className="title is-3">{page.title}</h3>
-                                        {Hooks.useArrayToP(page.description)}
-                                        <Link to={page.url} className="">{page.link}</Link>
+                                        {Hooks.useArrayToQuote(page.description)}
+                                        <Link to={page.url} className="button">{page.link}</Link>
                                     </div>
                                 </Fragment>
                             )}

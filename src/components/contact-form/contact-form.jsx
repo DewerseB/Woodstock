@@ -3,9 +3,9 @@ import './contact-form.css';
 
 const ContactForm = () => {
     return (
-        <section className="section contact-form">
+        <section className="section content contact-form" id="contact-anchor">
             <h2 className="title is-2">Contact form</h2>
-            <form className="container">
+            <form className="container box">
                 <div className="field is-grouped is-grouped-centered">
                     <div className="control is-expanded">
                         <label className="label" htmlFor="form-firstname">First name</label>

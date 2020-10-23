@@ -8,14 +8,14 @@ const { Fragment } = require("react")
  * 
  * @return a react Fragment
  */
-export function useArrayToP(array) {
+export function useArrayToQuote(array) {
     return (
-        <Fragment>
+        <blockquote>
         {array.map((string) => {
             return (
                 <p>{string}</p>
             )
         })}
-        </Fragment>
+        </blockquote>
     )
 }

@@ -1,7 +1,11 @@
 .contact-form {
-    background-color: white;
+    background-color: #cbbfa9;
 }
 
 .contact-form .label {
-    color:  #9e5419;
+    color: hsl(0, 0%, 21%);
+}
+
+.contact-form .box {
+    background-color: white;
 }

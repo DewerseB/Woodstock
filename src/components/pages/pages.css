@@ -1,0 +1,26 @@
+.intro, .intro .title {
+    color: white;
+    background-color: hsl(0, 0%, 21%);
+}
+
+.content {
+    color: hsl(0, 0%, 21%);
+    background-color: #cbbfa9;
+}
+
+.button-fa {
+    position: absolute;
+    right: 0.8rem;
+    font-size: 2rem;
+    color: #cbbfa9;
+}
+
+.button-fa:hover {
+    color: white;
+    /* animation: glow 1s ease-in-out forwards; */
+}
+
+@keyframes glow {
+    0% {font-size: 2rem;}
+    100% {font-size: 4rem;}
+}

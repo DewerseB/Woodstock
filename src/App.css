@@ -28,11 +28,3 @@
     transform: rotate(360deg);
   }
 }
-
-.intro, .intro h1 {
-  color: white;
-}
-
-.content, .content h2 {
-  background-color: white;
-}
