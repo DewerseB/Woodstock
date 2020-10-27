@@ -17,7 +17,8 @@
 
 .button-fa:hover {
     color: white;
-    /* animation: glow 1s ease-in-out forwards; */
+    scroll-behavior: smooth;
+    /* animation: glow 1s ease-in-out alternate; */
 }
 
 @keyframes glow {

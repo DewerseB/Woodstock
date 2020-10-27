@@ -1,19 +1,18 @@
 import React from 'react';
-const { Fragment } = require("react")
 
 /**
- * Turns an array of string into a react Fragment containing a <p> for each string
+ * Turns an array of string into a <blockquote> containing a <p> for each string
  * 
  * @param {Array} array an array of strings
  * 
- * @return a react Fragment
+ * @return a blockquote element
  */
 export function useArrayToQuote(array) {
     return (
         <blockquote>
-        {array.map((string) => {
+        {array.map((string, index) => {
             return (
-                <p>{string}</p>
+                <p key={index}>{string}</p>
             )
         })}
         </blockquote>

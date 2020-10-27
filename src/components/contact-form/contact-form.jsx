@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './contact-form.css';
 
 const ContactForm = () => {
+    const [validFirstname, setValidFirstname] = useState(true);
+
+    useEffect(() => {
+        
+    });
+
     return (
-        <section className="section content contact-form" id="contact-anchor">
+        <section className="section content contact-form" id="anchor-contact">
             <h2 className="title is-2">Contact form</h2>
             <form className="container box">
                 <div className="field is-grouped is-grouped-centered">
@@ -11,15 +17,18 @@ const ContactForm = () => {
                         <label className="label" htmlFor="form-firstname">First name</label>
                         <input id="form-firstname" className="input" type="text" placeholder="First name" required/>
                     </div>
-                    <div className="control is-expanded">
+                    <div className="control is-expanded has-icons-right">
                         <label className="label" htmlFor="form-lastname">Last name</label>
                         <input id="form-lastname" className="input" type="text" placeholder="Last name" required/>
+                        {/* <span class="icon is-small is-right">
+                            <i class="fas fa-check"></i>
+                        </span> */}
                     </div>
                 </div>
                 <div className="field">
                     <label className="label" htmlFor="email">Email</label>
                     <div className="control has-icons-left has-icons-right">
-                        <input id="email" className="input is-danger" type="email" placeholder="Email" required/>
+                        <input id="email" className="input" type="email" placeholder="Email" required/>
                         <span className="icon is-small is-left">
                         <i className="fas fa-envelope"></i>
                         </span>
