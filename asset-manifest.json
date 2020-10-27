@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/Woodstock/static/css/main.3011ed79.chunk.css",
-    "main.js": "/Woodstock/static/js/main.bb185881.chunk.js",
-    "main.js.map": "/Woodstock/static/js/main.bb185881.chunk.js.map",
+    "main.css": "/Woodstock/static/css/main.a2fe9ebc.chunk.css",
+    "main.js": "/Woodstock/static/js/main.d733ad3b.chunk.js",
+    "main.js.map": "/Woodstock/static/js/main.d733ad3b.chunk.js.map",
     "runtime-main.js": "/Woodstock/static/js/runtime-main.4d8c00a6.js",
     "runtime-main.js.map": "/Woodstock/static/js/runtime-main.4d8c00a6.js.map",
-    "static/css/2.98705a83.chunk.css": "/Woodstock/static/css/2.98705a83.chunk.css",
-    "static/js/2.16df574b.chunk.js": "/Woodstock/static/js/2.16df574b.chunk.js",
-    "static/js/2.16df574b.chunk.js.map": "/Woodstock/static/js/2.16df574b.chunk.js.map",
+    "static/css/2.0582a1b2.chunk.css": "/Woodstock/static/css/2.0582a1b2.chunk.css",
+    "static/js/2.a8ed0260.chunk.js": "/Woodstock/static/js/2.a8ed0260.chunk.js",
+    "static/js/2.a8ed0260.chunk.js.map": "/Woodstock/static/js/2.a8ed0260.chunk.js.map",
     "index.html": "/Woodstock/index.html",
-    "precache-manifest.31898471f8b3ce647bc2f73f5204d3e3.js": "/Woodstock/precache-manifest.31898471f8b3ce647bc2f73f5204d3e3.js",
+    "precache-manifest.5f8eb0a0b92f6ff5dff7073ab978a100.js": "/Woodstock/precache-manifest.5f8eb0a0b92f6ff5dff7073ab978a100.js",
     "service-worker.js": "/Woodstock/service-worker.js",
-    "static/css/2.98705a83.chunk.css.map": "/Woodstock/static/css/2.98705a83.chunk.css.map",
-    "static/css/main.3011ed79.chunk.css.map": "/Woodstock/static/css/main.3011ed79.chunk.css.map",
-    "static/js/2.16df574b.chunk.js.LICENSE.txt": "/Woodstock/static/js/2.16df574b.chunk.js.LICENSE.txt",
+    "static/css/2.0582a1b2.chunk.css.map": "/Woodstock/static/css/2.0582a1b2.chunk.css.map",
+    "static/css/main.a2fe9ebc.chunk.css.map": "/Woodstock/static/css/main.a2fe9ebc.chunk.css.map",
+    "static/js/2.a8ed0260.chunk.js.LICENSE.txt": "/Woodstock/static/js/2.a8ed0260.chunk.js.LICENSE.txt",
+    "static/media/all.css": "/Woodstock/static/media/fa-solid-900.8e1ed89b.woff2",
     "static/media/jumbotron.css": "/Woodstock/static/media/wood-stack.2b3a1395.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.4d8c00a6.js",
-    "static/css/2.98705a83.chunk.css",
-    "static/js/2.16df574b.chunk.js",
-    "static/css/main.3011ed79.chunk.css",
-    "static/js/main.bb185881.chunk.js"
+    "static/css/2.0582a1b2.chunk.css",
+    "static/js/2.a8ed0260.chunk.js",
+    "static/css/main.a2fe9ebc.chunk.css",
+    "static/js/main.d733ad3b.chunk.js"
   ]
 }
