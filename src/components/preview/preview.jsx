@@ -22,7 +22,7 @@ const Preview = () => {
                                         <h3 className="title is-3">{page.title}</h3>
                                         
                                         {Hooks.useArrayToQuote(page.description)}
-                                        <Link to={page.url} className="button box">{page.link}</Link>
+                                        <Link to={page.url} className="button">{page.link}</Link>
                                     </div>
                                     <div className="column is-hidden-touch">
                                         <Link to={page.url} className="link-photo"><img src={page.photo} className="photo" alt=""></img></Link>
