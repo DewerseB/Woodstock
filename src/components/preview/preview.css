@@ -19,7 +19,7 @@
     color:  hsl(0, 0%, 21%);
     background-color: #cbbfa9;
     border: 0.1rem solid #cbbfa9;
-    box-shadow: #6b3910 0.1rem 0.1rem 0.2rem;
+    box-shadow: hsl(0, 0%, 21%) 0.1rem 0.1rem 0.2rem;
     padding: 1rem;
     margin: 1rem;
 }
@@ -40,12 +40,12 @@
     height: 100%;
     object-fit: fill;
     border-radius: 1rem;
-    box-shadow: #6b3910 0.1rem 0.1rem 0.2rem;
+    box-shadow: hsl(0, 0%, 21%) 0.1rem 0.1rem 0.2rem;
     backface-visibility: hidden;
     transition: transform 1s ease-in-out, box-shadow 1s ease-in-out;
 }
 
 .preview .photo:hover {
     transform: scale3D(1.02, 1.02, 1);
-    box-shadow: #6b3910 0.2rem 0.2rem 0.2rem;
+    box-shadow:  hsl(0, 0%, 21%) 0.2rem 0.2rem 0.2rem;
 }
