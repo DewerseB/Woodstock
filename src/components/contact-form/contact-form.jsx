@@ -63,7 +63,7 @@ const ContactForm = () => {
                             <i className="fas fa-envelope"></i>
                         </span>
                         <span className="icon is-small is-right">
-                            <i className="fas fa-exclamation-triangle"></i>
+                            <i className="fas fa-check"></i>
                         </span>
                     </div>
                     <p className="help is-danger"></p>
