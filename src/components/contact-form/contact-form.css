@@ -8,4 +8,16 @@
 
 .contact-form .box {
     background-color: white;
+    box-shadow: #6b3910 0.1rem 0.1rem 0.2rem;
+}
+
+.contact-form .button {
+    color: black;
+    background-color: #cbbfa9;
+    box-shadow: #6b3910 0.1rem 0.1rem 0.2rem;
+}
+
+.contact-form .button:hover {
+    color: white;
+    background-color: #6b3910;
 }
