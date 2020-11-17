@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Woodstock/static/css/main.9073b18c.chunk.css",
-    "main.js": "/Woodstock/static/js/main.77b9f752.chunk.js",
-    "main.js.map": "/Woodstock/static/js/main.77b9f752.chunk.js.map",
+    "main.js": "/Woodstock/static/js/main.6f22ddff.chunk.js",
+    "main.js.map": "/Woodstock/static/js/main.6f22ddff.chunk.js.map",
     "runtime-main.js": "/Woodstock/static/js/runtime-main.4d8c00a6.js",
     "runtime-main.js.map": "/Woodstock/static/js/runtime-main.4d8c00a6.js.map",
     "static/css/2.0582a1b2.chunk.css": "/Woodstock/static/css/2.0582a1b2.chunk.css",
     "static/js/2.a8ed0260.chunk.js": "/Woodstock/static/js/2.a8ed0260.chunk.js",
     "static/js/2.a8ed0260.chunk.js.map": "/Woodstock/static/js/2.a8ed0260.chunk.js.map",
     "index.html": "/Woodstock/index.html",
-    "precache-manifest.298a12697c93bf02bfef5138c16c190c.js": "/Woodstock/precache-manifest.298a12697c93bf02bfef5138c16c190c.js",
+    "precache-manifest.b64f33021f043c0466af075675ecc66b.js": "/Woodstock/precache-manifest.b64f33021f043c0466af075675ecc66b.js",
     "service-worker.js": "/Woodstock/service-worker.js",
     "static/css/2.0582a1b2.chunk.css.map": "/Woodstock/static/css/2.0582a1b2.chunk.css.map",
     "static/css/main.9073b18c.chunk.css.map": "/Woodstock/static/css/main.9073b18c.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.0582a1b2.chunk.css",
     "static/js/2.a8ed0260.chunk.js",
     "static/css/main.9073b18c.chunk.css",
-    "static/js/main.77b9f752.chunk.js"
+    "static/js/main.6f22ddff.chunk.js"
   ]
 }
