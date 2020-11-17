@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "67879aa6b0e748a71d87363d769068e9",
+    "revision": "b2c8ca3bcfe920c09a3bff30f5d699a9",
     "url": "/Woodstock/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Woodstock/static/css/2.0582a1b2.chunk.css"
   },
   {
-    "revision": "22677ebc2f494a8f92be",
-    "url": "/Woodstock/static/css/main.9073b18c.chunk.css"
+    "revision": "90b823d8711f061dbf1a",
+    "url": "/Woodstock/static/css/main.4e00bacd.chunk.css"
   },
   {
     "revision": "228954a8d9fe8b6fcc62",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Woodstock/static/js/2.a8ed0260.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "22677ebc2f494a8f92be",
+    "revision": "90b823d8711f061dbf1a",
     "url": "/Woodstock/static/js/main.6f22ddff.chunk.js"
   },
   {
