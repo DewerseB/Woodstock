@@ -16,7 +16,7 @@ const Preview = () => {
                             {(index % 2 === 0) ? (
                                 <Fragment>
                                     <div className="column is-hidden-desktop">
-                                        <Link to={page.url} className="link-photo"><img src={page.photo} className="photo" alt=""></img></Link>
+                                        <Link to={page.url} className="link-photo"><img src={page.photo} className="photo" alt={page.title}></img></Link>
                                     </div>
                                     <div className="column">
                                         <h3 className="title is-3">{page.title}</h3>
@@ -32,7 +32,7 @@ const Preview = () => {
                             ) : (
                                 <Fragment>
                                     <div className="column">
-                                        <Link to={page.url} className="link-photo"><img src={page.photo} className="photo" alt=""></img></Link>
+                                        <Link to={page.url} className="link-photo"><img src={page.photo} className="photo" alt={page.title}></img></Link>
                                     </div>
                                     <div className="column">
                                         <h3 className="title is-3">{page.title}</h3>
